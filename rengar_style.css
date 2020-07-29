@@ -1,0 +1,577 @@
+
+html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #14212a;
+	max-width: 100%;
+}
+img{
+	position: relative;
+	max-width: 100%;
+}
+.r2{
+	width: 100%;
+	max-width: 100%;
+	height: 15vw;
+	min-height: 300px;
+	background-color: #14212a;
+	background-image: url("images/rengar/Rengar_1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-blend-mode: overlay;
+	background-size: 100% 100%;
+	max-width: 100%;
+}
+.r3{
+	width: 100%;
+	height: 15vw;
+	min-height: 300px;
+	background-color: #14212a;
+	background-image: url("images/rengar/Rengar_2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-blend-mode: overlay;
+	background-size: 100% 100%;
+}
+.rengar{
+  --position: absolute;
+  width: 100%;
+  max-width: 100%;
+  --margin-top: 20vw;
+  display: block;
+}
+.pres1{
+	position: relative;
+	background-color: #111;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: max(1.5vw, 18px);
+	letter-spacing: 8px;
+}
+.bgImage1{
+  opacity: 0.4;
+  margin: 0px;
+  padding: 0px;
+	min-width: 50px;
+	height: 50px;
+}
+h1{
+  color: #b4fff3;
+  font-size: max(50px, 9vw);
+  margin-left: 25px;
+	letter-spacing: 8px;
+	text-align: center;
+}
+h3{
+	color: #b4fff3;
+  font-size: max(25px, 1.5vw);
+	letter-spacing: 5px;
+	text-align: center;
+}
+h4{
+	color: #b4fff3;
+	font-size: max(25px, 1.5vw);
+	letter-spacing: 5px;
+	text-align: center;
+	align-self: center;
+}
+h5{
+	color: #b4fff3;
+	font-size: max(50px, 3.5vw);
+	letter-spacing: 5px;
+	text-align: center;
+	margin-top: 3%;
+}
+a{
+	  opacity: 0.2;
+	  color: #b4fff3;
+}
+a:hover{
+	opacity: 1.0;
+	transform: scale(1.1);
+  transition-duration: 1s;
+}
+.image1{
+	 display: block;
+	max-width: 100%;
+	float:inherit;
+  height: auto;
+	padding-top: 20vw;
+	padding-bottom: 13vw;
+  min-height: 31vw;
+  opacity: 1.0;
+	width: 100%;
+	background-color: #14212a;
+}
+.image2{
+	  display: block;
+	max-width: 100%;
+	float: inherit;
+  width: 100%;
+  height: fit-content;
+  opacity: 1.5;
+	background-color: #14212a;
+	padding-bottom: 3%;
+	--padding-top: 3%;
+}
+.image3{
+	display: block;
+	max-width: 100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	float:inherit;
+  width: 100%;
+  height: fit-content;
+  opacity: 1.0;
+	background-color: #14212a;
+}
+.image4{
+	max-width: 100%;
+	float:inherit;
+  width: 100%;
+  height: auto;
+  opacity: 1.0;
+	background-color: #14212a;
+}
+.bottomBarFirst{
+	margin-top: max(1%, 25px);
+	float:inherit;
+}
+.bottomBar{
+	float:inherit;
+	padding-bottom: 5%;
+}
+.skill0{
+		background-image: url("images/rengar/a0.jpg");
+		background-color: #14212a;
+}
+.skill0:hover{
+		transform: scale(1.1);
+	  transition-duration: 1s;
+}
+.skill1{
+		background-image: url("images/rengar/a1.jpg");
+		background-color: #14212a;
+}
+.skill1:hover{
+		transform: scale(1.1);
+	  transition-duration: 1s;
+}
+.skill2{
+		background-image: url("images/rengar/a2.jpg");
+		background-color: #14212a;
+}
+.skill2:hover{
+		background-image: url("images/rengar/a2e.jpg");
+		background-color: #14212a;
+		transform: scale(1.1);
+	  transition-duration: 1s;
+}
+.skill3{
+	background-image: url("images/rengar/a3.jpg");
+	background-color: #14212a;
+}
+.skill3:hover{
+	background-image: url("images/rengar/a3e.jpg");
+	background-color: #14212a;
+	transform: scale(1.1);
+  transition-duration: 1s;
+}
+.skill4{
+	background-image: url("images/rengar/a4.jpg");
+	background-color: #14212a;
+}
+.skill4:hover{
+	background-image: url("images/rengar/a4e.jpg");
+	background-color: #14212a;
+	transform: scale(1.1);
+  transition-duration: 1s;
+}
+.skill5{
+		background-image: url("images/rengar/a5.jpg");
+		background-color: #14212a;
+}
+.skill5:hover{
+		transform: scale(1.1);
+	  transition-duration: 1s;
+}
+
+
+@media (min-width: 1080px){
+	#absoluteVideo{
+		position: absolute;
+		opacity: 0.3;
+	  top: -10%;
+		left: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	video{
+		max-width: 100%;
+		width: 100%;
+		min-height:calc(10% + 20vw);
+	}
+	.r1{
+		display: block;
+		background-color: #14212a;
+		background-image: url("images/rengar/Rengar_0.png");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		--background-blend-mode: hard-light;
+		background-size: 100% auto;
+		backface-visibility: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	.skills{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin-top: 3%;
+}
+.desc{
+	color: #b4fff3;
+	max-width: 55%;
+	padding: 5px;
+	margin-left: 5%;
+	height: auto;
+  font-size: max(18px, 0.9vw);
+	letter-spacing: 1px;
+	text-align: justify;
+	float: left;
+}
+.desc2{
+	color: #b4fff3;
+	max-width: 40%;
+	margin-left: 5%;
+	height: auto;
+	display:block;
+  font-size: max(18px, 0.9vw);
+	letter-spacing: 1px;
+	text-align: justify;
+	float: left;
+}
+.info{
+	color: #b4fff3;
+	letter-spacing: 3px;
+	margin-right: max(30px, 3%);
+	margin-left: max(30px, 3%);
+	position: relative;
+	text-align: left;
+	float: left;
+	max-width: 20%;
+	font-size: max(15px, 0.8vw);
+	height: auto;
+}
+.skillImages{
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin-left: 15%;
+	margin-top: 1%;
+}
+}
+
+
+
+@media (max-width: 1079px){
+		.r1{
+		display: block;
+		background-color: #14212a;
+		background-image: url("images/rengar/Rengar_0.png");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		--background-blend-mode: hard-light;
+		background-size: 100% 100%;
+		backface-visibility: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	#absoluteVideo{
+		position: absolute;
+		opacity: 0.3;
+	  top: -10%;
+		left: 0;
+		max-width: 100%;
+		width: 100%;
+	}
+	video{
+		width: 100%;
+		max-width: 100%;
+		min-height:calc(10% + 30vw + 250px);
+	}
+	.skills{
+	width: auto;
+	height: auto;
+	overflow: auto;
+	margin-top: 3%;
+}
+.desc{
+	color: #b4fff3;
+	max-width: 70%;
+	padding: 5px;
+	margin-left: 3%;
+	height: auto;
+  font-size: max(18px, 0.9vw);
+	letter-spacing: 1px;
+	text-align: justify;
+	float: left;
+}
+.desc2{
+	color: #b4fff3;
+	max-width: 70%;
+	margin-left: 3%;
+	margin-right: 3%;
+	height: auto;
+	display:block;
+  font-size: max(18px, 0.9vw);
+	letter-spacing: 1px;
+	text-align: justify;
+	float: left;
+}
+.info{
+	color: #b4fff3;
+	letter-spacing: 3px;
+	margin-top: 3%;
+	position: relative;
+	text-align: center;
+	float: left;
+	padding-left: 25%;
+	padding-right: 25%;
+	max-width: 100%;
+	font-size: max(15px, 0.8vw);
+	height: auto;
+}
+.skillImages{
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin-left: 10%;
+    margin: max(50px, 5%);
+}
+h5{
+	color: #b4fff3;
+	font-size: max(50px, 4.5vw);
+	letter-spacing: 5px;
+	text-align: center;
+	margin-top: 3%;
+}
+}
+
+
+
+@media (max-width: 720px){
+	.nav{
+		display: none;
+	}
+	.bgImage2{
+		display: none;
+	}
+	.sideBar{
+		display: none;
+	}
+	.sideBar:hover{
+		display: none;
+	}
+	hr{
+		display: none;
+	}
+	h5{
+		color: #b4fff3;
+		font-size: max(50px, 4.5vw);
+		letter-spacing: 5px;
+		text-align: center;
+		margin-top: 3%;
+	}
+	.image2{
+		  display: block;
+		max-width: 100%;
+		float: inherit;
+	  width: 100%;
+	  height: fit-content;
+	  opacity: 1.5;
+		background-color: #14212a;
+		padding-bottom: 5%;
+		padding-top: 5%;
+	}
+	.image3{
+		display: block;
+		max-width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		float:inherit;
+	  width: 100%;
+	  height: fit-content;
+	  opacity: 1.0;
+		background-color: #14212a;
+	}
+		.r1{
+		display: block;
+		background-color: #14212a;
+		background-image: url("images/rengar/Rengar_0_mobile.png");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-size: 100% auto;
+		backface-visibility: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	.r2{
+	width: 100%;
+	max-width: 100%;
+	height: 15vw;
+	min-height: 300px;
+	background-color: #14212a;
+	background-image: url("images/rengar/Rengar_1_mobile.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 100%;
+	max-width: 100%;
+}
+.r3{
+	width: 100%;
+	height: 15vw;
+	min-height: 300px;
+	background-color: #14212a;
+	background-image: url("images/rengar/Rengar_2_mobile.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 100%;
+}
+	h4{
+	color: #b4fff3;
+	font-size: max(45px, 1.5vw);
+	letter-spacing: 5px;
+	text-align: center;
+	align-self: center;
+}
+	video{
+		display: none;
+		max-width: 100%;
+	}
+.skills{
+	width: auto;
+	height: auto;
+	overflow: auto;
+}
+.desc{
+	color: #b4fff3;
+	max-width: 100%;
+	margin-left: 3%;
+	margin-right: 3%;
+	height: auto;
+	display:block;
+  font-size: max(18px, 0.9vw);
+	letter-spacing: 1px;
+	text-align: justify;
+	float: left;
+}
+.desc2{
+	color: #b4fff3;
+	max-width: 100%;
+	margin-left: 3%;
+	margin-right: 3%;
+	height: auto;
+	display:block;
+  font-size: max(18px, 0.9vw);
+	letter-spacing: 1px;
+	text-align: justify;
+	float: left;
+}
+.info{
+	color: #b4fff3;
+	letter-spacing: 3px;
+	padding: 5%;
+	padding-left: 21%;
+	padding-right: 21%;
+	display: block;
+	text-align: center;
+	float: left;
+	max-width: 100%;
+	font-size: max(18px, 0.8vw);
+	height: auto;
+}
+.skillImages{
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 64px;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+}
+p{
+	display: inline
+}
+.disclaimer{
+	color: #79a8a0;
+	max-width: 85%;
+	height: auto;
+  font-size: 18px;
+	letter-spacing: 1px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact{
+	color: #ffe28c;
+	max-width: 70%;
+	height: fit-content;
+	font-size: max(1.3vw, 18px);
+	letter-spacing: 3px;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.nav{
+	position: fixed;
+	display: block;
+	top: 40%;
+	left: max(1vw, 30px);
+	width: auto;
+	height: auto;
+	z-index: 5;
+}
+.bgImage2{
+  opacity: 1;
+  margin: 0px;
+  padding: 0px;
+	width: max(25px, 1.5vw);
+	height: max(25px, 1.5vw);
+	margin-bottom: max(15px, 0.3vw);
+}
+.sideBar{
+	opacity: 0.8;
+}
+.sideBar:hover{
+	opacity: 0.4;
+	transform: scale(1.1);
+	transition-duration: 0.25s;
+}
+hr{
+	width: max(25px, 1.5vw);
+	opacity: 0.5;
+	height: 1px;
+	border-width:0;
+	background-color: #b4fff3;
+	color: #b4fff3;
+}
