@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/characterShowcase.iml" filepath="$PROJECT_DIR$/characterShowcase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/react-charactershowcase.iml" filepath="$PROJECT_DIR$/react-charactershowcase.iml" />
     </modules>
   </component>
 </project>
